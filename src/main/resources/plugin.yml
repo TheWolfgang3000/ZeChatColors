@@ -1,0 +1,13 @@
+name: ZeChatColors
+version: 1.0
+main: de.db.zechatcolors.ZeChatColors
+author: ZeBobbel
+description: Adds Commands for Chat Colors.
+
+commands:
+  farbcodes:
+    description: Shows a list of Color Codes.
+    usage: /cc
+  setcolor:
+    description: Sets your Standard-Chatcolor.
+    usage: /setcolor <colorcode>
