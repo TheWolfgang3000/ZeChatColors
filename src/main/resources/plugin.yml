@@ -5,9 +5,9 @@ author: ZeBobbel
 description: Adds Commands for Chat Colors.
 
 commands:
-  farbcodes:
+  cc:
     description: Shows a list of Color Codes.
     usage: /cc
   setcolor:
     description: Sets your Standard-Chatcolor.
-    usage: /setcolor <colorcode>
+    usage: /setcolor <colorcode|reset>
