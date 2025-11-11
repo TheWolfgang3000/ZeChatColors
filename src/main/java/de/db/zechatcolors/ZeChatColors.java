@@ -93,7 +93,7 @@ public class ZeChatColors extends JavaPlugin implements Listener {
                 VALID_COLOR_CHARS.indexOf(Character.toLowerCase(colorCode.charAt(1))) == -1) {
 
             player.sendMessage(c("&cThis isn't a valid Color code!"));
-            player.sendMessage(c("&fUse for example '&a' oder '&9'."));
+            player.sendMessage(c("&fUse for example '&-a' or '&-9'."));
             player.sendMessage(c("&fFormat-Codes (&l, &k etc.) are not allowed."));
             player.sendMessage(c("&fUse /cc for a list of Codes."));
             return;
